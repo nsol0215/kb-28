@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- .number을 붙이면, 문자열이 아니라 숫자로 출력하게 해줌 -->
+      금액: <input type="text" v-model.number="amount" /> <br />
+      <!-- balance는 데이터 저장소 -->
+      <button v-on:click="balance += amount">입금</button>
+      <button v-on:click="balance -= amount">인출</button><br />
+      <h3>계좌잔고:[{{balance}}]</h3>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return { amount: 0, balance: 0 };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

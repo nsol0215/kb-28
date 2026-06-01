@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      window.onload = function () {
+        let headers = document.querySelectorAll('h1');
+        // 요소를 여러개 접근하는 경우 [배열] 형태로 반환됨
+        // -> 배열 내의 요소에 css, 이벤트 등을 적용하고 싶으면
+        // 인덱스 번호를 이용하여 요소 하나에 직접 적용해야 한다.
+
+        // let i를 넣으면 밖에까지 나가서 3도 출력
+        for (let i = 0; i < headers.length; i++) {
+          let header = headers[i];
+          header.style.color = 'orange';
+          header.style.background = 'red';
+          header.innerHTML = 'From JavaScript!';
+        }
+        //console.log(i); "i is nat defined" 중괄호 밖에 나가게 되면 사용 못 함
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+  </body>
+</html>

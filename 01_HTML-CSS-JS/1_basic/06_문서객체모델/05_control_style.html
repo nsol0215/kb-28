@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      window.onload = function () {
+        let output = '';
+        for (let i = 0; i < 256; i++) {
+          output += '<div></div>';
+        }
+        document.body.innerHTML = output;
+//innerHTML 전부 해석
+        let divs = document.body.querySelectorAll('div');
+        //getElementbyName 사용가능
+        for (let i = 0; i < divs.length; i++) {
+          let div = divs[i];
+          //하나씩 꺼내서 적용해라 의미
+          div.style.height = '2px';
+          // div.style.background = 'rgb(' + i + ',' + i + ',' + i + ')';
+          div.style.background = `rgb(${i}, ${i}, ${i})`;
+          // color : rgb(0,1,2) 색을 세가지 사용 가능 순서대로 적용
+        }
+      };
+    </script>
+  </head>
+  <body></body>
+</html>

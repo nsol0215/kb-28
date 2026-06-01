@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbc73ee2-f57a-4a53-855b-151843feae32" name="변경" comment="6/1">
+      <change afterPath="$PROJECT_DIR$/../../03_SQL기본/advanced/SQL기본_sqldb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_SQL기본/advanced/SQL기본_world.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_SQL기본/basic/SQL기본_sqlemployees.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_SQL기본/basic/SQL기본_world.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_SQL고급/basic/SQL고급.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_테이블/basic/05_tabledb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_ex1/jdbc_ex.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_ex1/src/test/java/org/scoula/jdbc_ex/common/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_ex1/src/test/java/org/scoula/jdbc_ex/test/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc_ex1/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/01_dql_select1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/02_dql_select2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/05_table_datatype.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/06_dml.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/07_ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/08_tcl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/09_create_user_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../오후수업/수업용 script/menudb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dataSources/2215fe26-9a80-4afe-88eb-df084f9e9d27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/dataSources/2215fe26-9a80-4afe-88eb-df084f9e9d27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/employees.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/memberTBL_cp949.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/membertbl_other_utf8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/memberthl_export.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/productTBL_cp949.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/productTBL_utf8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/productthl_export.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/sakila-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/sakila-schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_db_settings/world.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_SQL기본/basic/03_SQL기본_sqldb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_SQL기본/basic/SQL기본_sqldb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03_SQL기본/basic/03_SQL기본_world.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../day4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../create_member.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="30" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nsol0215&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nsol0215/KBIT.git&quot;,
+    &quot;accountId&quot;: &quot;28dae9b0-3a30-4d0b-8110-124268577ff9&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3EVwVgAfuBnnvVvOzWn7FfSROKS" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.ConnectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionTest.testConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConnectionTest.testConnection2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrudTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CrudTest.insertUser.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jdbc_ex 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.testDivideByZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConnectionTest.testConnection2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CrudTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CrudTest.insertUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitCycleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JUnitTest.junitTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.jdbc_ex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.testDivideByZero">
+    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_ex.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.jdbc_ex.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.jdbc_ex.test" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.jdbc_ex.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testDivideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_ex.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.jdbc_ex.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.jdbc_ex.test" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.jdbc_ex.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivideByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest.testConnection2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_ex.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.jdbc_ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.jdbc_ex" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.jdbc_ex.ConnectionTest" />
+      <option name="METHOD_NAME" value="testConnection2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_ex.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.jdbc_ex.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.jdbc_ex.test" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.jdbc_ex.test.JUnitCycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnitTest.junitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc_ex.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.jdbc_ex.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.jdbc_ex.test" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.jdbc_ex.test.JUnitTest" />
+      <option name="METHOD_NAME" value="junitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest.testDivideByZero" />
+        <item itemvalue="JUnit.CalculatorTest.testAdd" />
+        <item itemvalue="JUnit.JUnitCycleTest" />
+        <item itemvalue="JUnit.JUnitTest.junitTest" />
+        <item itemvalue="JUnit.ConnectionTest.testConnection2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="dbc73ee2-f57a-4a53-855b-151843feae32" name="변경" comment="" />
+      <created>1780277072165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780277072165</updated>
+      <workItem from="1780277073207" duration="8392000" />
+      <workItem from="1780288215522" duration="1294000" />
+      <workItem from="1780289532480" duration="5238000" />
+      <workItem from="1780296584894" duration="2275000" />
+    </task>
+    <task id="LOCAL-00001" summary="6/1">
+      <option name="closed" value="true" />
+      <created>1780279572989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780279572989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/scoula/jdbc_ex/test/JUnitCycleTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

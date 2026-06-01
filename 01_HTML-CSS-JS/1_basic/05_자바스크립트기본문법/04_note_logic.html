@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let date = new Date();
+      let month = date.getMonth() + 1;
+      // 컴퓨터는 0부터 세기 때문에 +1 해줘야 달이 되는 것
+
+      console.log(month);
+
+      month = 13;
+
+      if (3 <= month && month <= 5) {
+        // &&(AND) : 조건식이 둘다 true일 때만 수행
+        // 3월~5월 : 봄
+        alert('봄입니다');
+      } else if (6 <= month && month <= 8) {
+        alert('여름입니다.');
+      } else if (9 <= month && month <= 11) {
+        alert('가을입니다.');
+      } else if (month == 12 || month == 1 || month == 2) {
+        // == 같다
+        // = 대입연산자
+        // || (or) 조건식이 하나라도 true라면 수행
+        alert('겨울입니다.');
+      } else {
+        alert('잘못된 월입니다.');
+      }
+    </script>
+  </head>
+  <body>
+    <h3>if - else if - else</h3>
+    <pre>
+        if(조건식1){
+            조건식1이 true일 때 수행할 코드
+
+        } else if (조건식2){
+            조건식1이 false이면서
+            조건식2가 true일 때 수행할 코드
+
+        }else{
+            위의 조건식들을 모두 만족하지 않는 경우
+            수행할 코드
+        }
+
+    </pre>
+  </body>
+</html>
