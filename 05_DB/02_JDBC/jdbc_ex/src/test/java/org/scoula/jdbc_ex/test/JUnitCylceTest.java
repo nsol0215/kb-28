@@ -2,7 +2,7 @@ package org.scoula.jdbc_ex.test;
 
 import org.junit.jupiter.api.*;
 
-public class JUnitCycleTest {
+public class JUnitCylceTest {
 
     @BeforeAll // 전체 테스트 시작 전 1회 실행, static 선언
     static void beforeAll() {

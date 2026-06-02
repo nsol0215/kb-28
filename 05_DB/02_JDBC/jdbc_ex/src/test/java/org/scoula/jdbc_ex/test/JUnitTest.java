@@ -17,7 +17,7 @@ public class JUnitTest {
         // 테스트 데이터 준비
         int a = 1;
         int b = 2;
-        int sum = 3 ;
+        int sum = 3;
 
         // 덧셈 결과 검증
         // 첫 번째 인자(a+b)가 두 번째 인자(sum)와 같은지 검증
