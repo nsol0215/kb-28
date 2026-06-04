@@ -17,6 +17,7 @@ public class Member {
     private String memberRole;
     private char deletedYn;
 
+
     public Member(int memberNo, String memberName, String memberRole) {
         this.memberNo = memberNo;
         this.memberName = memberName;
@@ -32,4 +33,9 @@ public class Member {
     public char getDeleteYn() {
         return this.deletedYn;
     }
+
+    // 부서
+    private int deptNo;
+    private String deptName;
 }
+

@@ -24,6 +24,10 @@ public interface MemberDao {
     // 회원 정보 조회
     Member get(int no) throws SQLException;
 
+    // 회원 목록 조회
     List<Member> getList() throws SQLException;
+
+    // 회원 정보 조회
+    Member getDeptName(int no) throws SQLException;
 }
 

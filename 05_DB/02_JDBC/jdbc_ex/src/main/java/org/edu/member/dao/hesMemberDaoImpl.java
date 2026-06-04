@@ -108,21 +108,20 @@ public class hesMemberDaoImpl implements MemberDao {
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setInt(1, no);
 
-           try(ResultSet rs = pstmt.executeQuery()){
-               pstmt.setInt(1,no);
+            try (ResultSet rs = pstmt.executeQuery()) {
+                pstmt.setInt(1, no);
 
-               if (rs.next()) {
-                   member = new Member();
+                if (rs.next()) {
+                    member = new Member();
 
-                   member.setMemberNo(rs.getInt("no"));
-                   member.setMemberId(rs.getString("id"));
-                   member.setMemberPw(rs.getString("password"));
-                   member.setMemberName(rs.getString("name"));
-                   member.setMemberRole(rs.getString("role"));
-                   member.setDeleteYn(rs.getString("deleted_yn"));
-               }
-           }
-
+                    member.setMemberNo(rs.getInt("no"));
+                    member.setMemberId(rs.getString("id"));
+                    member.setMemberPw(rs.getString("password"));
+                    member.setMemberName(rs.getString("name"));
+                    member.setMemberRole(rs.getString("role"));
+                    member.setDeleteYn(rs.getString("deleted_yn"));
+                }
+            }
 
 
         }
@@ -156,6 +155,24 @@ public class hesMemberDaoImpl implements MemberDao {
                 list.add(member);
             }
             return list;
+        }
+    }
+
+    // 회원 부서명 조회
+    @Override
+    public Member getDeptName(int no) throws SQLException {
+
+        String sql = "select m.no, m.name, m.dept_no, d.dept_name" +
+                "from members m" +
+                "join departments d on m.dept_no = d.dept_no" +
+                "where m.no";
+
+        Member member = null;
+
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setInt(1, no);
+
+            return null;
         }
     }
 }
