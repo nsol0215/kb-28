@@ -15,9 +15,21 @@ public class Member {
     private String memberPw;
     private String memberName;
     private String memberRole;
-    private char deleteYn;
+    private char deletedYn;
 
+    public Member(int memberNo, String memberName, String memberRole) {
+        this.memberNo = memberNo;
+        this.memberName = memberName;
+        this.memberRole = memberRole;
+    }
 
-    public Member(int no, String name, String role) {
+    public void setDeleteYn(String deletedYn) {
+        if (deletedYn != null && !deletedYn.isEmpty()) {
+            this.deletedYn = deletedYn.charAt(0);
+        }
+    }
+
+    public char getDeleteYn() {
+        return this.deletedYn;
     }
 }

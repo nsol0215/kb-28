@@ -12,7 +12,5 @@ public class MemberRun {
         service.displayMenu();
 
 
-
-
     }
 }

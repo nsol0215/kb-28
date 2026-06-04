@@ -1,25 +1,22 @@
 package org.edu.member.service;
 
+import org.edu.member.dao.hesMemberDaoImpl;
 import org.edu.member.dao.MemberDao;
-import org.edu.member.dao.MemberDaoImpl;
 import org.edu.member.vo.Member;
 
 import java.sql.SQLException;
+import java.util.List;
 import java.util.Scanner;
 
 public class MemberService {
     private Scanner sc = new Scanner(System.in);
 
     // 수업
-    // private MemberDao dao = new MemberDaoImpl()
+    // private MemberDao dao = new MemberDaoImpl();
 
     // 숙제
-    private MemberDao dao = new MemberDaoImpl() {
-        @Override
-        public void test() {
+    private MemberDao dao = new hesMemberDaoImpl();
 
-        }
-    };
 
     public void displayMenu() {
 
@@ -46,16 +43,16 @@ public class MemberService {
                         create();
                         break;
                     case 2:
-                        // getList();
+                        getList();
                         break;
                     case 3:
-                        // get();
+                        get();
                         break;
                     case 4:
                         update();
                         break;
                     case 5:
-                        // delete();
+                        delete();
                         break;
 
                     case 0:
@@ -71,70 +68,127 @@ public class MemberService {
             }
         } while (menu != 0);
     }
+
     // 회원 등록
     private void create() throws SQLException {
         System.out.println("=== 회원 등록 ===");
 
-        // 아이디, 비번, 이름, 권한 입력 받아 변수에 저장
-        System.out.println("아이디 : ");
+        // 아이디, 비밀번호, 이름, 권한을 입력받아 각각 변수에 저장
+        System.out.print("아이디 : ");
         String memberId = sc.next();
 
-        System.out.println("비밀번호 : ");
+        System.out.print("비밀번호 : ");
         String memberPw = sc.next();
 
-        System.out.println("이름 : ");
+        System.out.print("이름 : ");
         String memberName = sc.next();
 
-        System.out.println("권한 : ");
+        System.out.print("권한 : ");
         String memberRole = sc.next();
 
         // Member 객체 생성 후 전달
-        Member memeber = new Member();
-        memeber.setMemberId(memberId);
-        memeber.setMemberPw(memberPw);
-        memeber.setMemberName(memberName);
-        memeber.setMemberRole(memberRole);
+        Member member = new Member();
+        member.setMemberId(memberId);
+        member.setMemberPw(memberPw);
+        member.setMemberName(memberName);
+        member.setMemberRole(memberRole);
 
-        int result = dao.create(memeber) ;
+        int result = dao.create(member);
 
-        // 회원 등록 성공 시 : "000님의 가입을 환영합니다."
+        // 회원 등록 성공 시 : "OOO님의 가입을 환영합니다."
         //          실패 시 : "회원 등록 실패 ㅠㅠ"
 
-        if (result == 1){
+        if (result == 1) {
             System.out.println(memberName + "님의 가입을 환영합니다.");
-        }else {
+        } else {
             System.out.println("회원 등록 실패 ㅠㅠ");
         }
 
     }
+
     // 회원 정보 수정
     private void update() throws SQLException {
+
         System.out.println("=== 회원 정보 수정 ===");
 
         // 회원 번호를 입력 받아 일치하는 회원의 이름, 권한 수정
-        System.out.println("회원번호 : ");
+        System.out.print("수정할 회원 번호 : ");
         int no = sc.nextInt();
+        sc.nextLine();
 
-        System.out.println("수정할 이름");
-        String name = sc.next();
+        System.out.print("수정할 이름 : ");
+        String name = sc.nextLine();
+        System.out.println(name);
 
-        System.out.println("수정할 권한");
-        String role = sc.next();
+        System.out.print("수정할 권한 : ");
+        String role = sc.nextLine();
 
-        Member mem = new Member(no, name, role);
+        Member member = new Member(no, name, role);
 
-        int result = dao.update(mem);
-
+        int result = dao.update(member);
         // 성공 시 : "회원 정보 수정 성공"
         // 실패 시 : "회원 정보 수정 실패 ㅠㅠ"
 
         if (result == 1) System.out.println("회원 정보 수정 성공");
         else System.out.println("회원 정보 수정 실패 ㅠㅠ");
+    }
+
+    // delete()  : 회원 번호가 일치하는 회원 삭제
+    private void delete() throws SQLException {
+        System.out.println("=== 회원 정보 삭제 ===");
+
+        System.out.print("삭제할 회원 번호 : ");
+        int no = sc.nextInt();
+
+        int result = dao.delete(no);
+
+        if (result == 1) {
+            System.out.println("회원 정보 삭제 성공");
+        } else {
+            System.out.println("회원 정보 삭제 실패");
+
 
         }
-        // delete()  : 회원 번호가 일치하는 회원 삭제
-        // get()     : 회원 번호가 일치하는 회원 한명 조회
-        // getList() : 회원 목록 전체 조회
+    }
+
+    // get()     : 회원 번호가 일치하는 회원 한명 조회
+    private void get() throws SQLException {
+        System.out.println("=== 회원 정보 조회===");
+
+        System.out.println("조회할 회원 번호 : ");
+        int no = sc.nextInt();
+        Member member = dao.get(no);
+
+        if (member != null) {
+            System.out.println("회원번호 : " + member.getMemberNo());
+            System.out.println("아이디 : " + member.getMemberId());
+            System.out.println("이름 : " + member.getMemberName());
+            System.out.println("권한 : " + member.getMemberRole());
+            System.out.println("탙퇴여부 : " + member.getDeletedYn());
+        } else {
+            System.out.println("존재하지 않는 회원번호입니다.");
+        }
 
     }
 
+    // getList() : 회원 목록 전체 조회
+    private void getList() throws SQLException {
+        System.out.println("=== 회원 목록 전체 조회 ===");
+
+        List<Member> list = dao.getList();
+
+        if (list == null || list.isEmpty()) {
+            System.out.println("회원이 없습니다.");
+        } else {
+           for(Member member : list) {
+                System.out.print(member.getMemberNo() + "\t");
+                System.out.print(member.getMemberId() + "\t");
+                System.out.print(member.getMemberName() + "\t");
+                System.out.print(member.getMemberRole() + "\t");
+                System.out.println(member.getDeleteYn());
+                ;
+            }
+        }
+
+    }
+}
