@@ -31,3 +31,13 @@ public interface MemberDao {
     Member getDeptName(int no) throws SQLException;
 }
 
+
+
+
+
+
+
+
+
+
+

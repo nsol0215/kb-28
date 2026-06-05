@@ -101,32 +101,30 @@ public class MemberDaoImpl implements MemberDao {
 
     // 회원 부서명 조회
     @Override
-    public Member getDeptName(int no) throws SQLException{
+    public Member getDeptName(int memberNo) throws SQLException {
         Member mem = null;
 
-        // 여러줄로 작성하는 경우 띄어쓰기 주의
-        String sql = "select m.no, m.name, m.dept_no, d.dept_name " +
+        // 여러줄로 작성하는 경우 띄어쓰기 주의!
+        String sql = "select no, name, d.dept_no, dept_name " +
                 "from members m " +
                 "left join departments d on m.dept_no = d.dept_no " +
-                "where m.no = ?";
+                "where no = ?";
 
-        try(PreparedStatement pstmt =conn.prepareStatement(sql)){
-            pstmt.setInt(1,no);
+        try(PreparedStatement pstmt = conn.prepareStatement(sql)){
+            pstmt.setInt(1, memberNo);
 
             try(ResultSet rs = pstmt.executeQuery()){
-                if(rs.next()){
-                    // no == pk == 조회 성공 시 1행만 존재
-
-                    Member member = new Member();
-                    member.setMemberNo(rs.getInt("NO"));
-                    member.setMemberName(rs.getString("NAME"));
-                    member.setDeptNo(rs.getInt("DEPT_NO"));
-                    member.setDeptName(rs.getString("DEPT_NAME"));
-
+                if(rs.next()){ // no == pk == 조회 성공 시 1행만 존재
+                    mem = new Member();
+                    mem.setMemberNo( rs.getInt("NO") );
+                    mem.setMemberName( rs.getString("NAME") );
+                    mem.setDeptNo( rs.getInt("DEPT_NO") );
+                    mem.setDeptName(rs.getString("DEPT_NAME"));
                 }
             }
         }
-        return mem;
+
+        return mem; // 존재하면 mem, 없으면 null 반환
     }
 }
 

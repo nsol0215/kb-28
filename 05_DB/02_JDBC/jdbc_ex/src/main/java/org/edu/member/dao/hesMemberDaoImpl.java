@@ -162,15 +162,17 @@ public class hesMemberDaoImpl implements MemberDao {
     @Override
     public Member getDeptName(int no) throws SQLException {
 
-        String sql = "select m.no, m.name, m.dept_no, d.dept_name" +
-                "from members m" +
-                "join departments d on m.dept_no = d.dept_no" +
+        String sql = "select m.no, m.name, m.dept_no, d.dept_name " +
+                "from members m " +
+                "join departments d on m.dept_no = d.dept_no " +
                 "where m.no";
 
         Member member = null;
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setInt(1, no);
+
+
 
             return null;
         }

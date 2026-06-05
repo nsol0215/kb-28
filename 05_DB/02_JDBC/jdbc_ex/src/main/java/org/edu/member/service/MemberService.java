@@ -200,18 +200,24 @@ public class MemberService {
 
     // 회원 번호가 일치하는 회원의 번호, 이름, 부서코드, 부서명 조회
     private void getDeptName() throws SQLException {
-        System.out.println("=== 회원 부서명 조회 ===");
+        System.out.println("=== 회원의 부서명 조회 ===");
 
-        System.out.println("검색할 회원 번호 : ");
-        int no = sc.nextInt();
+        System.out.print("검색할 회원 번호 : ");
+        int memberNo = sc.nextInt();
 
-        Member member = dao.getDeptName(no);
+        Member member = dao.getDeptName(memberNo);
 
         if(member == null){
-            System.out.println();
-        }else{
-            System.out.println();
+            System.out.println("일치하는 회원이 없습니다.");
+        }else {
+            System.out.println(member);
         }
 
+
     }
-}
+
+
+
+    }
+
+
