@@ -1,5 +1,9 @@
 package edu.employee.vo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -23,4 +27,6 @@ public class EmployeeVO {
     // 통계 조회용
     private int employeeCount; // 사원수
     private double avgSalary;      // 평균급여
+
+
 }

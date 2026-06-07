@@ -13,6 +13,7 @@ import java.util.List;
 
 public class hesMemberDaoImpl implements MemberDao {
 
+    private org.edu.member.common.JDBCUtil JDBCUtil;
     // JDBCUtil을 통해 Connection 객체 가져오기
     private Connection conn = JDBCUtil.getConnection();
 
