@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/06_Jsp&amp;Sevlet/오전수업/ex02/ex2" vcs="Git" />
   </component>
 </project>
