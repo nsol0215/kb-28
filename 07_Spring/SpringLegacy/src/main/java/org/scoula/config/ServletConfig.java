@@ -2,6 +2,8 @@ package org.scoula.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
@@ -10,12 +12,21 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
-@ComponentScan(basePackages = {"org.scoula.controller"})
+@ComponentScan(basePackages = {
+        "org.scoula.controller",
+        "org.scoula.exception"})
 // Spring MVC용 컴포넌트 등록을 위한 스캔 패키지
 
 
 public class ServletConfig implements WebMvcConfigurer {
     // 스프링 내부테어 사숑하는 서블릿 (jsp)와 관련된 것을 설정하는 파일.
+
+    //Servlet 3.0 이상 파일 업로드 사용시
+    @Bean // 메서드를 호출했을 때 싱글톤빈을 만들어 리턴해주세요
+    public MultipartResolver multipartResolver() {
+        StandardServletMultipartResolver resolver = new StandardServletMultipartResolver();
+        return resolver;
+    }
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
