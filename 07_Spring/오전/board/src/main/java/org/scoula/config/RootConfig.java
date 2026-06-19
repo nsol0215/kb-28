@@ -8,6 +8,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.beans.factory.annotation.Value;
@@ -18,6 +19,7 @@ import javax.sql.DataSource;
 @Configuration
 @PropertySource({"classpath:/application.properties"})
 @MapperScan(basePackages = {"org.scoula.board.mapper"})
+@ComponentScan(basePackages={ "org.scoula.board.service" })
 public class RootConfig {
     //프로젝트 전체에서 사용할 중요한 싱글톤 빈 생성 정의
     @Autowired

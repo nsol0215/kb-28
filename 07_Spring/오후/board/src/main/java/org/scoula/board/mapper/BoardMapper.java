@@ -7,7 +7,7 @@ import org.scoula.board.domain.BoardVO;
 public interface BoardMapper {
     // 게시글 목록 조회 (어노테이션 방식)
     //@Select("select * from tbl_board order by no desc")
-    public List<BoardVO> getBoardList();
+    public List<BoardVO> getList();
 
     // 단일 게시글 조회
     public BoardVO get(Long no);

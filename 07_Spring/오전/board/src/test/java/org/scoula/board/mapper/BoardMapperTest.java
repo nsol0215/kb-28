@@ -33,7 +33,7 @@ class BoardMapperTest {
 
     @Test
     void getNo() {
-        BoardVO board = mapper.getNo(1L);
+        BoardVO board = mapper.get(1L);
         log.info(board);
     }
 

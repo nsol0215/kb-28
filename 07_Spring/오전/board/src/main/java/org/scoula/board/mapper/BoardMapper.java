@@ -12,7 +12,7 @@ public interface BoardMapper {
     //많은 BoardVO목록은 List로 묶어줘.
     public abstract List<BoardVO> getList();
 
-    BoardVO getNo(Long no);
+    BoardVO get(Long no);
 
     void create(BoardVO board);
 }

@@ -5,86 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c49861e-c76d-4f6f-8c49-204fb97d43f8" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringLegacy/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringLegacy/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/exception/CommonExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringLegacy/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringLegacy/src/main/webapp/WEB-INF/views/error_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/dto/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/mapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex04/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex04/src/test/java/org/scoula/config/RootConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex04/src/test/java/org/scoula/persistence/JDBCTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/ServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringLegacy/src/main/java/org/scoula/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/java/org/scoula/ex01/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/template-meta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/Chef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/Restaurant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/org/scoula/ex01/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/test/java/org/scoula/RestaurantTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/template-meta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/ex03/controller/SampleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/ex03/dto/SampleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/ex03/dto/SampleDTOList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/java/org/scoula/ex03/dto/TodoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/webapp/WEB-INF/views/sample/ex01.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex03/src/main/webapp/WEB-INF/views/sample/ex04.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/WEB-INF/views/layouts/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/WEB-INF/views/layouts/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/WEB-INF/views/layouts/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/resources/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/resources/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../오전/board/src/test/java/org/scoula/board/service/BoardServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/board/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/java/org/scoula/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/resources.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/resources/org/scoula/board/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/resources/org/scoula/board/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../오전/board/src/test/java/org/scoula/board/mapper/BoardMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../오전/board/src/test/java/org/scoula/board/mapper/BoardMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="33" />
+    <option name="cachedIndexableFilesCount" value="490" />
   </component>
   <component name="FileEditorManager">
     <leaf ideFingerprint="3gs36jw3c5bzz">
@@ -282,6 +220,7 @@
       <updated>1781678139862</updated>
       <workItem from="1781678140968" duration="22000" />
       <workItem from="1781759630867" duration="2000" />
+      <workItem from="1781845967078" duration="9000" />
     </task>
     <servers />
   </component>

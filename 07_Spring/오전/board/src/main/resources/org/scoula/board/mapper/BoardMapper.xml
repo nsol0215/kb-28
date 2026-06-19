@@ -6,6 +6,10 @@
     <insert id="create">
         insert into tbl_board (title, content, writer)
         values (#{title}, #{content}, #{writer})
+
+        <selectKey resultType="Long" keyProperty="no" keyColumn="no" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
     </insert>
 
 
@@ -16,7 +20,7 @@
             order by no desc
         ]]>
     </select>
-    <select id="getNo" resultType="org.scoula.board.domain.BoardVO">
+    <select id="get" resultType="org.scoula.board.domain.BoardVO">
          select *
          from tbl_board
          where no = #{no}

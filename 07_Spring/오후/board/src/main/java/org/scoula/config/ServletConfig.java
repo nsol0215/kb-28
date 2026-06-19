@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = {
         "org.scoula.controller",      // 공통 컨트롤러 패키지
         "org.scoula.exception",       // 예외 처리 클래스 스캔 대상 추가
-        "org.scoula.ex03.controller"  // 프로젝트별 컨트롤러 패키지
+        "org.scoula.board.controller"    // BoardController 패키지 추가
 })
 public class ServletConfig implements WebMvcConfigurer {
 
