@@ -9,6 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Log4j2
 @Controller
@@ -33,12 +35,39 @@ public class BoardController {
         // /WEB-INF/views/board/list.jsp
     }
 
+    @GetMapping("/create") //글쓰기 jsp화면 보여주세요.
+    public void create() {
+        log.info("create");
+    }
+
     @PostMapping("/create")
     public String create(BoardDTO board) {
-        // 글쓴 내용을 dto로 받아서 service로 전달
+        //글쓴 내용을 dto로 받아서 service전달
         log.info("create: " + board);
         service.create(board);
-        // db처리 후 list를
+        //db처리후 list를 보여달라고 다시 요청하게 브라우저에 명령
         return "redirect:/board/list";
+    }
+
+    @PostMapping("/update")
+    public String update(BoardDTO board,
+                         RedirectAttributes ra) {
+        if (service.update(board)) {
+            ra.addFlashAttribute("result", "success");
+        }
+        return "redirect:/board/list";
+    }
+
+    @PostMapping("/delete")
+    public String delete(@RequestParam("no") Long no, RedirectAttributes ra) {
+        if (service.delete(no)) {
+            ra.addFlashAttribute("result", "success");
+        }
+        return "redirect:/board/list";
+    }
+
+    @GetMapping({ "/get", "/update" })
+    public void get(@RequestParam("no") Long no, Model model) {
+        model.addAttribute("board", service.get(no));
     }
 }

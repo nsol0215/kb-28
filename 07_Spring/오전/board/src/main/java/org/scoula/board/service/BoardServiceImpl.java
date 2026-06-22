@@ -43,11 +43,13 @@ public class BoardServiceImpl implements BoardService{
 
     @Override
     public boolean update(BoardDTO board) {
-        return false;
+        log.info("update......" + board);
+        return mapper.update(board.toVo()) == 1;
     }
 
     @Override
     public boolean delete(Long no) {
-        return false;
+        log.info("delete...." + no);
+        return mapper.delete(no) == 1;
     }
 }
