@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d710b4-8195-46b6-83eb-1bb1064669e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../board/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../board/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/board/service/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/java/org/scoula/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/org/scoula/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/resources/org/scoula/board/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/resources/org/scoula/board/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/views/layouts/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/resources/img/background.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/Coord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/WeatherDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="76" />
+    <option name="cachedIndexableFilesCount" value="73" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -95,15 +88,16 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Spring Controller Advice" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -113,7 +107,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/nsol0215/kb-28.git",
+    "url": "https://github.com/metaapple/boardapi.git",
     "accountId": "28dae9b0-3a30-4d0b-8110-124268577ff9"
   }
 }]]></component>
@@ -136,6 +130,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3FHwWxgqfEB17Tl9wWIn2NLKQjx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -149,6 +146,7 @@
     "Gradle.BoardServiceImplTest.get.executor": "Run",
     "Gradle.BoardServiceImplTest.getList.executor": "Run",
     "Gradle.Build board.executor": "Run",
+    "Gradle.Build boardapi.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.boardapi 빌드.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
@@ -157,23 +155,24 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Tomcat Server.Tomcat 9.0.118.executor": "Run",
     "Tomcat 서버.Tomcat 9.0.118.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/student/Desktop/fullstack/board/src/main/resources/org/scoula/board/mapper",
+    "last_opened_file_path": "C:/Users/student/Desktop/fullstack/boardapi",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -200,20 +199,17 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
     <option name="configurationStatuses">
       <map>
         <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
           <value>
             <map>
               <entry key="Tomcat 9.0.118" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
-          <value>
-            <map>
-              <entry key="generated-requests | #1" value="STOPPED" />
-              <entry key="generated-requests | #2" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -308,19 +304,11 @@
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2">
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="boardapi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.118" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.118" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war (exploded)">
+        <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -400,7 +388,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war (exploded)" />
+          <artifact name="Gradle : org.scoula : board-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -441,7 +430,9 @@
       <workItem from="1781829715993" duration="11419000" />
       <workItem from="1781850477573" duration="1724000" />
       <workItem from="1781853260301" duration="1157000" />
-      <workItem from="1782089184047" duration="3432000" />
+      <workItem from="1782089095951" duration="46000" />
+      <workItem from="1782089156110" duration="10695000" />
+      <workItem from="1782176592382" duration="8601000" />
     </task>
     <servers />
   </component>
@@ -455,6 +446,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/scoula/board/service/BoardServiceImpl.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/scoula/config/SwaggerConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
