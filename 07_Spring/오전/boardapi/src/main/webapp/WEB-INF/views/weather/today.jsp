@@ -2,10 +2,10 @@
 <%@ include file="../layouts/header.jsp"%>
 <h1>OpenAPI 이용한 날씨정보</h1>
 <div>
-    ${city} <br>
-    <img src="${iconUrl}" width="200" height="200"> <br>
-    ${weather} <br>
-    온도 ${weather.main.temp} , 습도 ${weather.main.humidity} <br>
+${city} <br>
+<img src="${iconUrl}" width="200" height="200"> <br>
+${weather} <br>
+온도 ${weather.main.temp} , 습도 ${weather.main.humidity} <br>
 
 
 

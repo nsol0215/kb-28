@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1d710b4-8195-46b6-83eb-1bb1064669e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scoula/weather/dto/WeatherDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/config/ServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="f1d710b4-8195-46b6-83eb-1bb1064669e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="73" />
+    <option name="cachedIndexableFilesCount" value="76" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -86,25 +78,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
-        <option value="Spring Controller Advice" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Spring Service" />
+        <option value="Spring Component" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nsol0215"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;metaapple&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/metaapple/boardapi.git",
@@ -131,7 +124,7 @@
 }</component>
   <component name="ProjectId" id="3FHwWxgqfEB17Tl9wWIn2NLKQjx" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -148,9 +141,13 @@
     "Gradle.Build board.executor": "Run",
     "Gradle.Build boardapi.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.SampleServiceImplTest.executor": "Run",
+    "Gradle.SampleServiceTest.addError.executor": "Run",
+    "Gradle.SampleServiceTest.doAdd.executor": "Run",
     "Gradle.boardapi 빌드.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
+    "JUnit.SampleServiceImplTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -172,7 +169,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -194,6 +191,7 @@
       <recent name="C:\Users\student\Desktop\fullstack\board\src\main\webapp\resources\images" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.sample.service" />
       <recent name="org.scoula.board.service" />
       <recent name="org.scoula.board.mapper" />
     </key>
@@ -216,7 +214,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.118">
+  <component name="RunManager" selected="JUnit.SampleServiceImplTest">
     <configuration name="BoardServiceImplTest.create" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -244,7 +242,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="BoardServiceImplTest.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -257,7 +255,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.scoula.board.service.BoardServiceImplTest.get&quot;" />
+            <option value="&quot;org.scoula.sample.service.SampleServiceImplTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -271,7 +269,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="BoardServiceImplTest.getList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SampleServiceTest.addError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -284,7 +282,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.scoula.board.service.BoardServiceImplTest.getList&quot;" />
+            <option value="&quot;org.scoula.sample.service.SampleServiceTest.addError&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -298,17 +296,55 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1">
+    <configuration name="SampleServiceTest.doAdd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.scoula.sample.service.SampleServiceTest.doAdd&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2">
-      <method v="2" />
+    <configuration name="SampleServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boardapi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scoula.sample.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.scoula.sample.service" />
+      <option name="MAIN_CLASS_NAME" value="org.scoula.sample.service.SampleServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 9.0.118" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.118" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war (exploded)">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -388,24 +424,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : org.scoula : board-1.0-SNAPSHOT.war" />
-          <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : org.scoula : boardapi-1.0-SNAPSHOT.war (exploded)" />
         </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.SampleServiceImplTest" />
+      <item itemvalue="Gradle.SampleServiceTest.addError" />
+      <item itemvalue="Gradle.SampleServiceTest.doAdd" />
       <item itemvalue="Gradle.BoardServiceImplTest.create" />
-      <item itemvalue="Gradle.BoardServiceImplTest.get" />
-      <item itemvalue="Gradle.BoardServiceImplTest.getList" />
-      <item itemvalue="HTTP 요청.generated-requests | #1" />
-      <item itemvalue="HTTP 요청.generated-requests | #2" />
+      <item itemvalue="JUnit.SampleServiceImplTest" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.118" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SampleServiceImplTest" />
+        <item itemvalue="Gradle.SampleServiceImplTest" />
+        <item itemvalue="Gradle.SampleServiceTest.addError" />
+        <item itemvalue="Gradle.SampleServiceTest.doAdd" />
         <item itemvalue="Gradle.BoardServiceImplTest.create" />
-        <item itemvalue="Gradle.BoardServiceImplTest.get" />
-        <item itemvalue="Gradle.BoardServiceImplTest.getList" />
       </list>
     </recent_temporary>
   </component>
@@ -431,8 +468,10 @@
       <workItem from="1781850477573" duration="1724000" />
       <workItem from="1781853260301" duration="1157000" />
       <workItem from="1782089095951" duration="46000" />
-      <workItem from="1782089156110" duration="10695000" />
-      <workItem from="1782176592382" duration="8601000" />
+      <workItem from="1782089156110" duration="10770000" />
+      <workItem from="1782112406059" duration="4869000" />
+      <workItem from="1782176573527" duration="8300000" />
+      <workItem from="1782260868480" duration="3725000" />
     </task>
     <servers />
   </component>
@@ -452,7 +491,16 @@
           <line>36</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/weather/today.jsp</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
